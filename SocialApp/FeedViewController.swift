@@ -41,7 +41,7 @@ class FeedViewController: UITableViewController {
             let request = SLRequest(forServiceType: SLServiceTypeTwitter,
                 requestMethod: SLRequestMethod.GET,
                 URL: requestURL,
-                parameters: nil)
+                parameters: nil)  
             
             request.account = account
             
