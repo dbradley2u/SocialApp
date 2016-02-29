@@ -23,6 +23,7 @@ class TweetViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        //This is the line on which my code is crashing [Denise]
         let userData = selectedTweet?.objectForKey("user") as! NSDictionary
         
         tweetText.text? = selectedTweet?.objectForKey("text") as! NSString as String
