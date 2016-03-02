@@ -33,6 +33,17 @@ class ComposeViewController: UIViewController, UITextViewDelegate {
         self.tweetContent.delegate = self
     }
     
+    func textView(textView: UITextView, shouldChangeTextInRange range: NSRange, replacementText text: String) -> Bool {
+        let targetLength : Int = 140
+        
+        //return countElements(textView.text) <= targetLength
+        //countElements() was replaced with count()
+        //Now, access the characters property of the String, then call count on that.
+        
+        return textView.text.characters.count <= targetLength
+        
+    }
+    
     func postContent(post : String) {
         postActivity.startAnimating()
         
