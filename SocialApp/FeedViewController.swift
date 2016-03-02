@@ -41,7 +41,7 @@ class FeedViewController: UITableViewController {
             let request = SLRequest(forServiceType: SLServiceTypeTwitter,
                 requestMethod: SLRequestMethod.GET,
                 URL: requestURL,
-                parameters: nil)  
+                parameters: nil)
             
             request.account = account
             
@@ -189,7 +189,7 @@ class FeedViewController: UITableViewController {
             targetController.selectedAccount = selectedAccount
                         
         }
-        else if(segue.identifier == "ShowTweets")
+        else if(segue.identifier == "ShowTweet")
         {
             var path : NSIndexPath = self.tableView.indexPathForSelectedRow!
             
