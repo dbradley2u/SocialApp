@@ -36,10 +36,8 @@ class ComposeViewController: UIViewController, UITextViewDelegate {
     func textView(textView: UITextView, shouldChangeTextInRange range: NSRange, replacementText text: String) -> Bool {
         let targetLength : Int = 140
         
-        //return countElements(textView.text) <= targetLength
-        //countElements() was replaced with count()
-        //Now, access the characters property of the String, then call count on that.
-        
+        // The function countElements() was replaced with count()
+        // Now, access the characters property of the String, then call count on that.
         return textView.text.characters.count <= targetLength
         
     }
@@ -75,18 +73,7 @@ class ComposeViewController: UIViewController, UITextViewDelegate {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

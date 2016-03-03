@@ -23,7 +23,6 @@ class TweetViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        //This is the line on which my code is crashing [Denise]
         let userData = selectedTweet?.objectForKey("user") as! NSDictionary
         
         tweetText.text? = selectedTweet?.objectForKey("text") as! NSString as String
@@ -40,18 +39,7 @@ class TweetViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

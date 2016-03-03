@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A20D0091C87B171003853DA /* FollowingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A20D0081C87B171003853DA /* FollowingViewController.swift */; };
 		9A90D8721C6F9DF200AF4627 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A90D8711C6F9DF200AF4627 /* AppDelegate.swift */; };
 		9A90D8771C6F9DF200AF4627 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A90D8751C6F9DF200AF4627 /* Main.storyboard */; };
 		9A90D8791C6F9DF200AF4627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A90D8781C6F9DF200AF4627 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A20D0081C87B171003853DA /* FollowingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowingViewController.swift; sourceTree = "<group>"; };
 		9A90D86E1C6F9DF200AF4627 /* SocialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A90D8711C6F9DF200AF4627 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A90D8761C6F9DF200AF4627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				9A90D8A11C6FA17600AF4627 /* ComposeViewController.swift */,
 				9A90D8A41C6FA2DA00AF4627 /* AccountsViewController.swift */,
 				9A90D8A61C6FA2FE00AF4627 /* FeedViewController.swift */,
+				9A20D0081C87B171003853DA /* FollowingViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				9A90D8A01C6FA14400AF4627 /* TweetViewController.swift in Sources */,
 				9A90D8A71C6FA2FE00AF4627 /* FeedViewController.swift in Sources */,
 				9ADFFB351C7CF275003F34CA /* TweetCell.swift in Sources */,
+				9A20D0091C87B171003853DA /* FollowingViewController.swift in Sources */,
 				9A90D8A51C6FA2DA00AF4627 /* AccountsViewController.swift in Sources */,
 				9A90D8721C6F9DF200AF4627 /* AppDelegate.swift in Sources */,
 			);
